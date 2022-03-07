@@ -752,6 +752,14 @@ article > aside {
     border-radius: 10px;
 }
 
+.notice-board h2 {
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 1.9rem;
+    letter-spacing: 3px;
+    transition: 1s ease-in-out;
+}
+
 .vaccine img {
     width: 100%;
     vertical-align: middle;
@@ -855,11 +863,18 @@ article > aside {
     border-radius: 5px;
     margin: 50px 0;
     padding: 15px;
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    align-items: center;
 }
 
-.notice-board-ugrade {
-    background: #333;
-    padding: 10px;
+.notice-board h2 {
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 1.9rem;
+    letter-spacing: 3px;
+    transition: 1s ease-in-out;
 }
 
 .notice-board h3 {
