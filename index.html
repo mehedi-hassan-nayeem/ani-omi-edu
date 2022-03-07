@@ -40,7 +40,7 @@
                             <a href="#tutorial">Tutorial</a>
                             <a href="#course">Course</a>
                             <a href="#contact">Contact Us</a>
-                            <a href="#">Sign In</a>
+                            <a href="#vaccine">Vaccine</a>
                         </nav-menu>
                     </nav-bar>
                 </nav>
@@ -425,7 +425,7 @@
 
                     <div class="departments">
                         <h2>Department</h2>
-                        <!-- heading deoya hoi ni kothao...ar sob cap hobe eitar -->
+
                         <button>dept. of astonomy</button>
                         <button>dept. of biology</button>
                         <button>dept. of chemistry</button>
@@ -440,8 +440,10 @@
                         <button>dept. of robotics</button>
                     </div>
 
-                    <div class="vaccine">
-                        sutdent vaccine section
+                    <div class="vaccine" id="vaccine">
+                        <a href="#">
+                            <img src="./images/covid.jpg" alt="covid-vaccine">
+                        </a>
                     </div>
 
                     <div class="var-info">
@@ -664,22 +666,18 @@
         <footer id="contact">
             <section class="sec1">
                 <h3>Follow Us</h3>
-                <div class="social-media">                   
-                    <button onclick="window.open('https://fb.me/techtalker360')">
-						<i class="fa fa-facebook-square" aria-hidden="true"></i>
-					</button>
-					
-                    <button onclick="window.open('https://www.instagram.com/tech_talker_360/')">
-						<i class="fa fa-instagram" aria-hidden="true"></i>
-					</button>
-					
-                    <button onclick="window.open('https://www.youtube.com/channel/UCVeBx1UbnTxdXGE4f0sf3Tw?sub_confirmation=1')">
-						<i class="fa fa-youtube-play" aria-hidden="true"></i>
-					</button>
-					
-                    <button onclick="window.open('https://m.me/techtalker360')">
-						<i class="fa fa-twitter-square" aria-hidden="true"></i>
-					</button>                    
+                <div class="social-media">
+                    <!-- <button><i class="fa fa-3x fa-facebook" aria-hidden="true"></i></button> -->
+                    <button onclick="window.open('https://fb.me/techtalker360')"><i class="fa fa-facebook-square"
+                            aria-hidden="true"></i></button>
+                    <button onclick="window.open('https://www.instagram.com/tech_talker_360/')"><i
+                            class="fa fa-instagram" aria-hidden="true"></i></button>
+                    <button
+                        onclick="window.open('https://www.youtube.com/channel/UCVeBx1UbnTxdXGE4f0sf3Tw?sub_confirmation=1')"><i
+                            class="fa fa-youtube-play" aria-hidden="true"></i></button>
+                    <button onclick="window.open('https://m.me/techtalker360')"><i class="fa fa-twitter-square"
+                            aria-hidden="true"></i></button>
+                    <!-- <button><i class="fa fa-3x fa-twitter" aria-hidden="true"></i></button> -->
                 </div>
             </section>
             <section class="sec2">
@@ -741,8 +739,9 @@
             </section>
         </footer>
     </div>
-   
-<script src="./security/security.js"></script>
+
+    <script src="./security/security.js"></script>
+
 </body>
 
 </html>
